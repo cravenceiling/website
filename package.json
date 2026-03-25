@@ -9,10 +9,18 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/mdx": "^4.3.13",
-    "@astrojs/rss": "^4.0.15",
-    "@astrojs/sitemap": "^3.7.0",
-    "astro": "^5.17.1",
-    "sharp": "^0.34.3"
+    "@astrojs/mdx": "^5.0.2",
+    "@astrojs/react": "^5.0.1",
+    "@astrojs/rss": "^4.0.17",
+    "@astrojs/sitemap": "^3.7.1",
+    "@astrojs/vercel": "^10.0.2",
+    "astro": "^6.0.8",
+    "rehype-external-links": "^3.0.0",
+    "rehype-preset-minify": "^7.0.1",
+    "sharp": "^0.34.5"
+  },
+  "overrides": {
+    "fast-xml-parser": "5.5.9",
+    "path-to-regexp": "6.3.0"
   }
 }
